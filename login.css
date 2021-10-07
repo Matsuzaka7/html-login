@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    height: 100%;
+    background: linear-gradient(120deg,rgb(6,129,140) 0%,rgb(16,70,115) 100%) no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: #eee;
+    font-size: 0.8rem;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.box form {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 13%;
+}
+
+.box form h4 {
+    color: #eee;
+    font-weight: 100;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.box form .acc input,
+.box form .btn {
+    outline: none;
+    display: block;
+    width: 100%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #eee;
+    background-color: rgba(0,0,0,20%);
+    border:none;
+    border-radius: 2.5rem;
+    text-indent: 1rem;
+    transition: background-color .3s;
+}
+
+.box form .btn {
+    text-align: center;
+    border: 1px solid #eee;
+    background-color: transparent;
+}
+
+.box form .acc input::placeholder {
+    color: #bbb;
+}
+
+.box form .acc input:hover {
+    background-color: rgba(0,0,0,30%);
+}
+
+.box form .acc input:focus {
+    background-color: rgba(0,0,0,40%);
+}
+
+.fn label {
+    font-size: 0.8rem;
+}
+
+.fn label input[type="checkbox"] {
+    display: none;
+}
+
+.fn label input[type="checkbox"] + span {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    padding: 2.3px;
+    border: 1px solid #eee;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.fn label input[type="checkbox"] +span > span {
+    float: left;
+    width: 0.6rem;
+    height: 0.6rem;
+    background-color: #eee;
+    border-radius: 50%;
+    opacity: 0;
+}
+
+.fn label input[type="checkbox"]:checked +span {
+    border-color: #eee;
+}
+
+.fn label:hover input[type="checkbox"] +span > span {
+    opacity: .5;
+}
+
+.fn label input[type="checkbox"]:checked +span > span {
+    opacity: 1;
+}
+
+.fn,.login {
+    color: #eee;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem !important;
+}
+
+.login a,.login input {
+    overflow: hidden;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    border: 1px solid #eee;
+    border-radius: 2.5rem;
+    margin: 0.5rem 0;
+    color: #eee;
+    background-color: transparent;
+    text-align: center;
+}
+
+.login a {
+    width: 40%;
+}
+
+.login input {
+    width: 60%;
+}
+
+.login span {
+    margin: 0.5rem;
+    font-size: 0.8rem;
+    line-height: 2.5rem;
+}
+
+.fn {
+    margin: 0 1rem;
+}
+
+.login {
+    margin: 0 2rem;
+}
+
+.reg {
+    font-size: 0.8rem;
+    color: rgba(255,255,255,60%);
+    text-align: center;
+}
+
+.ccc {
+    transition: color .5s;
+}
+
+.ccc:hover {
+    color: #ccc;
+}
+
+.fff {
+    transition: color .3s,background-color .3s;
+}
+
+.fff:hover {
+    color: #333 !important;
+    background-color: rgba(255,255,255,80%) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* https://space.bilibili.com/108279272 */
